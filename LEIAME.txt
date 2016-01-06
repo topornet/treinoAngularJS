@@ -1,0 +1,23 @@
+LEIAME Angular.
+
+Para convensão:
+
+Criar um controler o nome do arquivo deverá ser sem minusculo e separado de "-" dessa forma: user-controller.js
+e para criação do controller lógico deverá utilizar o CamelCase com letras maiusculas dessa forma: UserController.
+
+O Nome de diretivas em Angular são os ng-app, ng-controller (são atributos que estamos acustumados)
+
+Uma expression angular é os {{}}
+
+Dentro do javascript todas as veriaveis e objetos são privados e para resolver isso podemos passar como parametro na nossa function o parametro do $scope o Angular irá injetar as variaveis dentro do contexto scope para poder utilizar os valores, exemplo: 
+
+$scope.user = {
+	name : 'Valdomiro',
+	age  : '20'
+}
+
+Views = são páginas
+Controllers = Manipulam os dados
+Model = Modelo de dados.
+
+Data bind = Os dados são alterados da view para a model e vice-versa
