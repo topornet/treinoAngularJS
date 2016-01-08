@@ -21,3 +21,6 @@ Controllers = Manipulam os dados
 Model = Modelo de dados.
 
 Data bind = Os dados são alterados da view para a model e vice-versa
+Com Expressao Angular os valores sao apenas lidos pelo angular e com a diretiva ng-model esse trafego dos dados sao bidirecional.
+
+Outra forma de ter apenas leitura de um model e utilizar a diretiva ng-bind
